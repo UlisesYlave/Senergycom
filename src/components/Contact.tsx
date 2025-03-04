@@ -8,7 +8,7 @@ export function Contact() {
           <div className="contact-list">
             <img src="..//assets/contact.png" alt="man-typing"/>
             <form action="https://formsubmit.co/braulises1606@gmail.com" method="POST">
-                <label>Comuníquese por aquí</label>
+                <label>Contactar por aquí</label>
                 <input type="text" name="text" placeholder="Nombre" />
                 <input type="email" name="email" placeholder="Correo" />
                 <input type="tel" name="tel" placeholder="Teléfono"/>
