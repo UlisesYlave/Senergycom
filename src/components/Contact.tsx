@@ -6,7 +6,7 @@ export function Contact() {
         <h2>Contáctese con nosotros</h2>
         <h3>Permítanos ayudarlo contamos con la mejor calidad.</h3>
           <div className="contact-list">
-            <img src="..//assets/contact.png"/>
+            <img src="..//assets/contact.png" alt="man-typing"/>
             <form action="https://formsubmit.co/braulises1606@gmail.com" method="POST">
                 <label>Comuníquese por aquí</label>
                 <input type="text" name="text" placeholder="Nombre" />
