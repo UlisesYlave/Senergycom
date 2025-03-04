@@ -1,0 +1,84 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+#contact h2{
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+#contact h3{
+    text-align:center;
+}
+
+.contact-list{
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+}
+
+#contact img{
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.contact-list form{
+    background: linear-gradient( #838587,#363435);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 60vw;
+    height: 100%;
+}
+
+.contact-list form label{
+    padding: 10px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-list form input{
+    margin: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-list form textarea{
+    margin: 10px;
+    min-height: 100px;
+    max-height: 200px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-list form button{
+    background: #fe4700;
+    alig-items: left;
+    color: white;
+    width: 30%;
+    min-width: 90px;
+    margin: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contact-list form button:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px){
+    #contact img{
+        display: none;
+    }
+}

@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+main {
+  background: #363435;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hook {
+  height: 70vh;
+  background: linear-gradient(#fe4700, #363435);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+  padding: 15vw;
 }
 
-.App-link {
-  color: #61dafb;
+.hook-text{
+  align-self: center;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.hook a {
+  background: #fe4700;
+  color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  min-height: 30px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.hook a:hover {
+  transform: scale(1.05);
+}
+
+.hook img {
+  width: 40%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hook img {
+      display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hook {
+      flex-direction: column;
+      justify-content: center;
   }
+
+  .hook-text{
+      text-align: center;
+  }
+
+  h1 {
+      font-size: 3em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+}
+
+button{
+  min-height: 30px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

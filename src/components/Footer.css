@@ -1,0 +1,34 @@
+#footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15vw;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: white;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#footer section{
+    margin: 10px;
+}
+
+#footer h2{
+    color: black;
+    align-self: center;
+    text-align: left;
+}
+
+#footer h3{
+    color: black;
+    align-self: center;
+    text-align: left;
+}
+
